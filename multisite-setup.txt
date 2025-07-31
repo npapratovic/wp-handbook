@@ -1,0 +1,45 @@
+##Upute i tips'n'tricks za multisite 
+
+Ovo je tutorijal po kojem radim kada treba multi-lingual website, recimo alternativa za polylang: 
+
+http://wplang.org/wordpress-multisite-multilingual/
+
+Prvi korak je setup tzv. network site-a:
+
+https://codex.wordpress.org/Create_A_Network
+
+Zatim si olakšaš kreiranje ostalih podsajtova sa ovim pluginom: 
+
+https://wordpress.org/plugins/ns-cloner-site-copier/
+
+Dobar je workflow kada kreiraš jedan post / page na jednom sajtu, i želiš ga kopirati na drugi sajt da samo izmjeniš prijevod, onda ti može pomoći jedan od ova dva plugina:
+ 
+https://wordpress.org/plugins/demomentsomtres-multisite-post-clone/
+
+https://srd.wordpress.org/plugins/multisite-post-duplicator/ (ovaj kopira i kategorije, i može zadržati link između ta dva)
+
+Stvari koje ne pišu u tutorijalima: 
+
+Ako želiš instalirat wordpress multisite na web koji je stariji od mjesec dana, nakon što kreiraš network admin, onda će ti svaki podsajt kreirati na poddomeni, da bi to izbjegao imaš ovaj tutorijal: 
+
+https://premium.wpmudev.org/blog/change-multisite-sub-directories-sub-domains/ 
+
+Kako bi mapirao postove i stranice kroz multisite, ima ovaj plugin: 
+
+https://wordpress.org/plugins/multisite-language-switcher/
+
+- prije nego kreneš na prvi korak, kreiranja networka, dizejblaj sve plugine
+- permalinkovi moraju biti uključeni
+- prije nego dodaješ bilo koji drugi podsajt, isto svi pluginovi dizejblani
+- provjeri uvijek plugine i permalinkove da li rade. ako plugin izbacuje error na multisite-u, mjenjaj ga sa nekim drugim 
+- u network adminu ti je za svaki podsjt dodan u url prefix /blog tako da se to tamo mjenja, ne u settings>permalink
+- moraš dodijeliti usera za svaki sajt koji kreiraš. ako ti je samo jedan admin na webu, onda en treba, ako imaš više.. onda treba za svakog posebno dodati, inače ne vidi u izborniku
+- pluginovi koji kreiraju neki shortcode tipa revolution slider i slično da se ubaci u post / page i svaki taj shortcode ima svoj id.. nažalost, za svaki će se morati ručno radiit stajling
+
+to bi bilo ukratko o multisiteu..  
+
+Setupiraš web full na hrvatskom, i onda ga samo kloniraš i imaš na drugom jeziku, i rade svi pluginovi kako treba :) 
+
+I, da, takav web je brži nego da imaš višejezični plugin
+
++ wp rocket radi na multisiteu, što je izvrsno

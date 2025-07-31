@@ -1,0 +1,32 @@
+
+https://wordpress.org/plugins/really-simple-ssl/ 
+Lightweight plugin without any setup to make your site SSL proof
+
+https://wordpress.org/plugins/regenerate-thumbnails/
+Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme.
+
+https://wordpress.org/plugins/scriptless-social-sharing/
+A scriptless plugin to add sharing buttons.
+
+https://wordpress.org/plugins/show-current-template/
+Show the current template file name in the tool bar
+
+https://wordpress.org/plugins/simple-sitemap/
+HTML sitemap to display content as a single linked list of posts, pages, or custom post types. You can even display posts in groups sorted by taxonomy!
+
+https://wordpress.org/plugins/classic-widgets/
+Classic widgets - disable Gutenberg in sidebar
+
+https://wordpress.org/plugins/velvet-blues-update-urls/
+Upgrade URLs
+ 
+https://wordpress.org/plugins/insert-headers-and-footers/
+https://wordpress.org/plugins/header-footer/
+
+https://wordpress.org/plugins/wp-hide-security-enhancer/
+https://wordpress.org/plugins/wordfence/
+
+https://wordpress.org/plugins/yaymail/
+The best WooCommerce Email Customizer with custom blocks and HTML elements
+
+
